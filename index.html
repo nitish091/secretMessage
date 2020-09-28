@@ -7,14 +7,16 @@
     </head>
     <body>
         <div class="container">
-            <h1 id="theChosenOne">Hover or tap to see.</h1>
+            <div class="box row">
+                <h1 id="theChosenOne">Hover or tap to see.</h1>
+            </div>
         </div>
+    </div>
     </body>
     <script>
-let theChosenOne = document.getElementById('theChosenOne');
-console.log(theChosenOne.innerHTML);
-theChosenOne.addEventListener('click', function(){theChosenOne.innerText="BuggerOff!"});
-theChosenOne.addEventListener('mouseover', function(){theChosenOne.innerText="BuggerOff!"});
-console.log("dafaq");
+        let theChosenOne = document.getElementById('theChosenOne');
+        console.log(theChosenOne.innerHTML);
+        theChosenOne.addEventListener('click', function(){theChosenOne.innerText="BuggerOff!"});
+        theChosenOne.addEventListener('mouseover', function(){theChosenOne.innerText="BuggerOff!"});
     </script>
 </html>
