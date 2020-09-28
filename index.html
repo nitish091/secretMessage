@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Secret Message</title>
+        <link rel="stylesheet" type="text/css" href="global.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="theChosenOne">Hover or tap to see.</h1>
+        </div>
+    </body>
+    <script>
+let theChosenOne = document.getElementById('theChosenOne');
+console.log(theChosenOne.innerHTML);
+theChosenOne.addEventListener('click', function(){theChosenOne.innerText="BuggerOff!"});
+theChosenOne.addEventListener('mouseover', function(){theChosenOne.innerText="BuggerOff!"});
+console.log("dafaq");
+    </script>
+</html>
